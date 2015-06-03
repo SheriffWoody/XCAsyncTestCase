@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AsyncXCTestingKit", "AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.{h,m}"
+  s.source_files  = "AsyncXCTestingKit", "AsyncXCTestingKit/AsyncXCTestingKit/"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
